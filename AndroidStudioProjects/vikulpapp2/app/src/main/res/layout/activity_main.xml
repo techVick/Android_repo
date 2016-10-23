@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.memymusic.vikulpapp.MainActivity">
+
+
+
+    <ImageView
+        android:src="@drawable/bday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Bday Vikulp!"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:text="From Ira!"/>
+
+
+</RelativeLayout>
